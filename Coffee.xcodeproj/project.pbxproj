@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26DC829122BE391A0066593F /* CircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC829022BE391A0066593F /* CircleProgress.swift */; };
 		26DE193222A664AE00D13D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE193122A664AE00D13D01 /* AppDelegate.swift */; };
 		26DE193422A664AE00D13D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE193322A664AE00D13D01 /* ViewController.swift */; };
 		26DE193722A664AE00D13D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DE193522A664AE00D13D01 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26DC829022BE391A0066593F /* CircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgress.swift; sourceTree = "<group>"; };
 		26DE192E22A664AE00D13D01 /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DE193122A664AE00D13D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26DE193322A664AE00D13D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				26DE193122A664AE00D13D01 /* AppDelegate.swift */,
 				26DE193322A664AE00D13D01 /* ViewController.swift */,
 				26DE193522A664AE00D13D01 /* Main.storyboard */,
+				26DC829022BE391A0066593F /* CircleProgress.swift */,
 				26DE193822A664B000D13D01 /* Assets.xcassets */,
 				26DE193A22A664B000D13D01 /* LaunchScreen.storyboard */,
 				26DE193D22A664B000D13D01 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				26DE193422A664AE00D13D01 /* ViewController.swift in Sources */,
 				26DE193222A664AE00D13D01 /* AppDelegate.swift in Sources */,
+				26DC829122BE391A0066593F /* CircleProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6ZPL2UJ5B;
 				INFOPLIST_FILE = Coffee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucvandenhandel.Coffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6ZPL2UJ5B;
 				INFOPLIST_FILE = Coffee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucvandenhandel.Coffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
